@@ -50,19 +50,18 @@ python app.py
 ## Mlflow dagshub connection uri
 
 ``` bash
-MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/MLflow-Expriement-demo.mlflow \
-MLFLOW_TRACKING_USERNAME=entbappy \
-MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0 \
+MLFLOW_TRACKING_URI=https://dagshub.com/ksusheela/MLFlow_Experiment.mlflow \
+MLFLOW_TRACKING_USERNAME=ksusheela \
+MLFLOW_TRACKING_PASSWORD=b21b4d2213fd4f7a4a7cc3e2855c87ad9b6c7c61 \
 python script.py
-
 ```
 ## RUN from bash terminal
 
 ``` bash
-export MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/MLflow-Expriement-demo.mlflow
+export MLFLOW_TRACKING_URI=https://dagshub.com/ksusheela/MLFlow_Experiment.mlflow 
 
-export MLFLOW_TRACKING_USERNAME=entbappy 
+export MLFLOW_TRACKING_USERNAME=ksusheela 
 
-export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0
+export MLFLOW_TRACKING_PASSWORD=b21b4d2213fd4f7a4a7cc3e2855c87ad9b6c7c61 
 
 ```
